@@ -1,3 +1,5 @@
+import {ExtensionBuilder} from 'ExtensionBuilder';
+
 const path = require('path')
 // Application configuration
 const pkg = require('./package.json');
