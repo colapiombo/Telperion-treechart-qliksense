@@ -41,6 +41,8 @@
   },
   "dependencies": {
     "@types/lodash": "4.14.123",
-    "@types/qlik": "3.1.2"
+    "@types/qlik": "3.1.2",
+    "@types/qlik-engineapi": "12.67.8",
+    "@types/qlik-visualizationextensions": "4.0.4"
   }
 }
