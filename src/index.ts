@@ -1,12 +1,22 @@
 
-import { Extension } from "qlik";
+import { Extension } from "qlik/index";
 
-
-define( [ "qlik"
-],
+define( [ "qlik"],
 function (qlik):Extension {
 
 	return {
+		initialProperties: {
+      qHyperCubeDef: {}
+    },
+		definition: {
+			type: 'items',
+			component: 'accordion',
+			items: {
+				data: {
+					uses: 'data'
+				}
+			}
+		},
 		support : {
 			snapshot: true,
 			export: true,
