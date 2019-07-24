@@ -1,9 +1,9 @@
 {
-  "name": "Telperion-treechart-qliksense",
+  "name": "telperion-treechart-qliksense",
   "version": "1.0.0",
   "description": "Qlik Sense extension that displays an Hierarchical Tree using D3, with user interaction.",
   "scripts": {
-    "build": "del dist && webpack -p",
+    "build": "npx tsc",
     "build:debug": "webpack -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
